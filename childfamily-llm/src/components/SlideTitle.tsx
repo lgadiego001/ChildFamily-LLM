@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import ts1 from "../assets/transscript1.png";
-import NavBar from './Navbar'
+import NavBar from './NavBar'
 
 const SlideTitle = () => {
     return (

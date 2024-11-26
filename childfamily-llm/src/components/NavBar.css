@@ -3,8 +3,12 @@ nav {
     top: 5px;
     left: 5px;
     font-size:12pt;
-    background: #c0c0c080;
-    color: #3030f080;
+    background: #40404020;
+    color: #c0c02080;
     text-align: left;
-    width: 80px;
+    width: 160px;
+}
+
+nav a {
+    color: #c0c02080;
 }
