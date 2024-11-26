@@ -1,0 +1,10 @@
+nav {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size:12pt;
+    background: #c0c0c080;
+    color: #3030f080;
+    text-align: left;
+    width: 80px;
+}

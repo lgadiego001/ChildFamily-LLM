@@ -1,17 +1,16 @@
-import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom';
 import './App.css'
 
-function App() {
-    const [count, setCount] = useState(0)
+import SlideTitle from './components/SlideTitle';
+import SlideLargeLanguageModels from './components/SlideLargeLanguageModels';
 
+const App = () => {
     return (
         <>
-            <div className="slide">
-                <h1>Vite + React</h1>
-                <p className="read-the-docs">
-                    Click on the Vite and React logos to learn more
-                </p>
-            </div>
+            <Routes>
+                <Route path='/' element={<SlideTitle />} />
+                <Route path='/large-language-models' element={<SlideLargeLanguageModels />} />
+            </Routes>
         </>
     )
 }

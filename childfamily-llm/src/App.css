@@ -1,8 +1,8 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  margin: 10 auto;
   padding: 2rem;
   text-align: center;
+  font-size:32pt;
 }
 
 .logo {
@@ -33,16 +33,27 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 .slide {
-    width:100%;
-    height:100%;
-    background-color: #ff0000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    min-width: 1280px;
+    height: 100vh;
+    min-height: 960px;
+    background-color: #470f0e;
+    color: #f0f0f0;
+}
+
+.slide > h2 {
+    font-style:italic;
+    font-size: 1.5rem;
+}
+
+.slide > h1 {
+    font-size: 3rem;
+}
+
+.slide > div.parbox {
+    text-align: left;
 }
